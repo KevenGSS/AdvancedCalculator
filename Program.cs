@@ -66,11 +66,11 @@ class Program
       if (num2 != 0)
         resultado = num1 / num2;
       else
-        resultado = double.NaN; // Ou trate a divisão por zero de outra maneira
+        resultado = double.NaN; 
     }
     else
     {
-      resultado = double.NaN; // Caso o operador seja inválido
+      resultado = double.NaN; 
     }
 
     Console.WriteLine($"Resultado: {resultado}");
